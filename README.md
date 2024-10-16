@@ -13,4 +13,10 @@ if password == "secret":
     print("Доступ разрешен!")
 else:
     print("Неверный пароль!")
-01)
+01) age = input()
+if age == 14:
+    print('Вам есть 14! Поздравляю!')
+if age > 14:
+    print("Добро пожаловать!")
+if age < 14:
+    print("Вам ещё рано!")
