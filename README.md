@@ -30,3 +30,19 @@ elif some > 500:
     print(some + some1)
 else:
     print(some)
+05)
+some = 0
+for i in range(5):
+    a = int(input())
+    some += a
+print(some)
+06)
+some = int(input())
+i = 1
+fac = 1
+while i <= some:
+    fac = i * fac
+    i += 1
+print(fac)
+   
+   
